@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<!--Created By: Chitwan Katyal - Created On: 22 May, 2021-->
+<head>
+    <meta content="en-us" http-equiv="Content-Language">
+    <meta charset="utf-8" />
+    <title>Assignment 1 - Comp 125-002</title>
+    <meta content="Comp 125, BMR calculator" name="keywords">
+	<meta content="Assignment 1, Comp 125" name="description">
+    <link href="Assignment1Styles.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+	</style>
+</head>
+<body>
+<div id="allPage" style="width:980px; margin-left:auto; margin-right:auto">
+<form>
+<table style="width: 100%">
+	<tr>
+		<td class="leftColumn">
+			<strong>
+			<input name="MetricButton" tabindex="1" type="button" value="METRIC BMR CALCULATOR" class="auto-style1" id="metricButton"></strong>
+		</td>
+		<td>
+			<strong>
+			<input name="ImperialButton" tabindex="3" type="button" value="IMPERIAL BMR CALCULATOR" class="auto-style1" id="imperialButton"></strong>
+		</td>
+	</tr>
+</table>
+<table style="width: 100%">
+	<tr>
+		<td class="leftColumn"><strong>Gender:</strong></td>
+		<td>
+			<select name="Select1" tabindex="5" id="gender">
+			<option value="Female" id="female">Female</option>
+			<option value="Male" id="male">Male</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="leftColumn"><strong>Age:</strong></td>
+		<td>
+			<input name="txtAge" tabindex="7" type="text"id="age">
+		</td>
+	</tr>
+</table>
+<p></p>
+<fieldset>
+<legend><strong>Your Height</strong></legend>
+<table style="width: 100%">
+	<tr>
+		<td class="leftColumn"><label id="heightBig"><strong>Feet:</strong></label></td>
+		<td style="width: 22px">
+		<input name="txtHeightFeet" tabindex="9" type="text"id="height1">
+		</td>
+		<td class="leftColumn"><label id="heightSmall"><strong>Inches:</strong></label></td>
+		<td>
+					<input name="txtHeightInch" tabindex="11" type="text" id="height2">
+		</td>
+	</tr>
+	</table>
+</fieldset>
+<p></p>
+<fieldset>
+<legend><strong>Your Weight</strong></legend>
+<table>
+		<tr>
+		<td class="leftColumn"><label id="weightKgs"><strong>Pounds:</strong></label></td>
+		<td>
+			<input name="txtWeightPounds" tabindex="15" type="text" id="weightPounds">
+		</td>
+	</tr>
+	</table>
+	</fieldset>
+	<p></p>
+<fieldset>
+<legend><strong>Select your activity level:</strong></legend>	
+<table style="width: 100%">
+				<tr>
+			<td>
+			<input name="txtActivity" tabindex="17" type="radio" value="Sedentary"id="sedentary"></td>
+			<td>I am sedentary (little or no exercise)</td>
+		</tr>
+		<tr>
+			<td>
+			<input name="txtActivity" tabindex="19" type="radio" value="Lightly Active"id="lightlyActive"></td>
+			<td>I am lightly active (light exercise or sports 1-3 days per week)</td>
+		</tr>
+		<tr>
+			<td>
+			<input name="txtActivity" tabindex="21" type="radio" value="Moderately Active"id="moderatelyActive"></td>
+			<td>I am moderately active (moderate exercise or sports 3-5 days per 
+			week)</td>
+		</tr>
+		<tr>
+			<td>
+			<input name="txtActivity" tabindex="23" type="radio" value="Very Active"id="veryActive"></td>
+			<td>I am very active (hard exercised or sports 6-7 days per week)</td>
+		</tr>
+		<tr>
+			<td style="height: 31px">
+			<input name="txtActivity" tabindex="25" type="radio" value="Super Active"id="superActive"></td>
+			<td style="height: 31px">I am super active (very hard exercise or sports and a physical 
+			job or 2x training)</td>
+		</tr>
+		</table>
+		</fieldset>
+		<p></p>
+	<table style="width: 100%" class="centreColumn">
+		<tr>
+			<td class="centreColumn">
+			<strong>
+			<input name="calculation" tabindex="27" type="button" value="Calculate BMR" class="auto-style1"id="result">&nbsp; 
+			<input name="calculationActivity" tabindex="29" type="button" value="Activity BMR" class="auto-style1"id="resultActivity"><br>
+			*</strong><i>To calculate Activity BMR, kindly choose Calculate BMR 
+			first</i></td>
+		</tr>
+	</table>
+			
+	<table style="width: 100%" class="centreColumn">
+		<tr>
+			<td><strong>
+			<input class="auto-style1" name="reset" tabindex="31" type="reset" value="Clear Form and Start Again"id="clear"></strong></td>
+		</tr>
+	</table>
+			
+</form>
+
+<footer>
+	<h6>&copy;&nbsp;Copyright Chitwan Katyal - Assignment 1 - COMP 125-002
+</h6>
+</footer>
+
+</div>
+<script src="Assignment1.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('images/pexels-daniel-reche-3601094.jpg');
+	background-repeat: no-repeat;
+	background-size: 1400px 660px;
+}
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+}
+td {
+}
+
+.leftColumn {
+	text-align: right;
+}
+.bold {
+	font-weight: bold;
+}
+.centreColumn {
+	text-align: center;
+}
+form {
+	box-shadow: 4px 4px 4px 4px #7B7BFF;
+	border-style: solid;
+	border-radius: 30px;
+	background-color: black;
+	opacity: 0.7;
+	color: #FFFFFF;
+}
+#metricButton {
+	border-radius: 6px;
+	padding: 5px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: large;
+}
+#imperialButton {
+	border-radius: 6px;
+	padding: 5px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: large;
+}
+#result {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border-radius: 6px;
+	padding: 5px;
+}
+#clear {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000000;
+	border-radius: 6px;
+	padding: 5px;
+}
+#resultActivity {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border-radius: 6px;
+	padding: 5px;
+}
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+fieldset {
+	border-radius: 30px;
+}
